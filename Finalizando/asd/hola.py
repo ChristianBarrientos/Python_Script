@@ -1,0 +1,3 @@
+
+mensaje ="  morena"
+print(mensaje)

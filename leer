@@ -1,0 +1,11 @@
+
+archivoleer = open('archivolectura.txt','r')
+
+lines = list(archivoleer)
+lines[2] = "asdf: 0000"
+
+for indice in range(len(lines)):
+
+        archivoleer.write (lines[indice])
+        
+
